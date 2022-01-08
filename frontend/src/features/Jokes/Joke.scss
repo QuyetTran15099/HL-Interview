@@ -1,0 +1,32 @@
+.content{
+	max-width: 1180px;
+    margin: 60px auto; 
+    &__jokes{
+        text-align: left;
+    }
+    .vote{
+        margin-top: 100px;
+        text-align: center;
+        button{
+            margin-right: 60px;
+        }
+        
+    }
+    .hide{
+            display:none;
+        }
+    .btn{
+        padding: 10px 40px;
+        text-align: center;
+        border: none;
+        outline: none;
+        &-funny{
+            background-color: #2c7edb;
+            color: #fff;
+        }
+        &-notfunny{
+            background-color: #29b363;
+            color: #fff;
+        }
+    }
+}
